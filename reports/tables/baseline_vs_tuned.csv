@@ -1,0 +1,5 @@
+Model,Baseline Accuracy,Tuned Accuracy,Baseline F1,Tuned F1
+k-NN,0.8424,0.8913,0.8571,0.9
+ID3 Decision Tree,0.7935,0.8207,0.8137,0.8308
+SVM,0.8641,0.8641,0.878,0.878
+Linear Regression,0.875,0.875,0.8889,0.893

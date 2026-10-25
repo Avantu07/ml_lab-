@@ -1,0 +1,13 @@
+,dtype
+age,float64
+sex,float64
+chest_pain_type,float64
+resting_bp_s,float64
+cholesterol,float64
+fasting_blood_sugar,float64
+resting_ecg,float64
+max_heart_rate,float64
+exercise_angina,float64
+oldpeak,float64
+st_slope,float64
+target,float64

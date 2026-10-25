@@ -1,0 +1,12 @@
+,correlation
+max_heart_rate,-0.4
+resting_ecg,0.061
+cholesterol,0.104
+resting_bp_s,0.118
+fasting_blood_sugar,0.267
+age,0.282
+sex,0.305
+oldpeak,0.404
+chest_pain_type,0.471
+exercise_angina,0.494
+st_slope,0.559

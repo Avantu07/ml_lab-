@@ -1,0 +1,28 @@
+{
+  "rows_raw": 1190,
+  "columns_raw": 12,
+  "duplicates_before": 272,
+  "missing_total": 0,
+  "rows_with_missing": 0,
+  "original_target_counts": {
+    "0": 561,
+    "1": 629
+  },
+  "undefined_st_slope_set_to_missing": 1,
+  "impossible_zeros_set_to_missing": 173,
+  "rows_dropped_too_many_missing": 0,
+  "rows_clean": 918,
+  "duplicates_after": 0,
+  "missing_after_cleaning": 174,
+  "binary_target_counts": {
+    "0": 410,
+    "1": 508
+  },
+  "data_file": "heart-disease-dataset.csv",
+  "train_rows": 734,
+  "test_rows": 184,
+  "train_positive_rate": 0.5531,
+  "test_positive_rate": 0.5543,
+  "split": "80:20 stratified",
+  "random_state": 42
+}

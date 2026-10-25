@@ -1,0 +1,5 @@
+Model,metric,n_neighbors,weights,CV f1,max_depth,min_samples_leaf,min_samples_split,C,gamma,kernel,threshold
+k-NN,manhattan,11.0,uniform,0.8780122346900404,,,,,,,
+ID3 Decision Tree,,,,0.8460233063477107,3.0,1.0,2.0,,,,
+SVM,,,,0.8707152727607754,,,,0.1,auto,rbf,
+Linear Regression,,,,0.873721588961416,,,,,,,0.45

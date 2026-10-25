@@ -1,0 +1,24 @@
+{
+  "algorithm": "Agglomerative Hierarchical Clustering",
+  "linkage": "ward",
+  "n_clusters": 3,
+  "features_used": [
+    "age",
+    "sex",
+    "chest_pain_type",
+    "resting_bp_s",
+    "cholesterol",
+    "fasting_blood_sugar",
+    "resting_ecg",
+    "max_heart_rate",
+    "exercise_angina",
+    "oldpeak",
+    "st_slope"
+  ],
+  "target_used": false,
+  "cluster_sizes": {
+    "1": 393,
+    "2": 395,
+    "3": 130
+  }
+}

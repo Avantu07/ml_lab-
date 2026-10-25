@@ -1,0 +1,4 @@
+cluster,Patient Count,age,sex,chest_pain_type,resting_bp_s,cholesterol,fasting_blood_sugar,resting_ecg,max_heart_rate,exercise_angina,oldpeak,st_slope
+1,393,57.4,0.86,3.56,140.97,252.4,0.28,0.66,124.42,0.68,1.62,1.98
+2,395,48.8,0.69,2.79,128.95,239.17,0.15,0.47,154.87,0.11,0.26,1.26
+3,130,56.07,0.89,3.69,118.01,239.39,0.35,0.83,119.38,0.45,0.57,1.77

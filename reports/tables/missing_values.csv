@@ -1,0 +1,13 @@
+Feature,Missing Count,Missing Percentage
+age,0,0.0
+sex,0,0.0
+chest_pain_type,0,0.0
+resting_bp_s,0,0.0
+cholesterol,0,0.0
+fasting_blood_sugar,0,0.0
+resting_ecg,0,0.0
+max_heart_rate,0,0.0
+exercise_angina,0,0.0
+oldpeak,0,0.0
+st_slope,0,0.0
+target,0,0.0

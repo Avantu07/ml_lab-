@@ -1,0 +1,145 @@
+{
+  "k-NN": {
+    "Accuracy": 0.8913043478260869,
+    "Precision": 0.9183673469387755,
+    "Recall": 0.8823529411764706,
+    "F1": 0.9,
+    "Specificity": 0.9024390243902439,
+    "confusion_matrix": [
+      [
+        74,
+        8
+      ],
+      [
+        12,
+        90
+      ]
+    ],
+    "classification_report": "                precision    recall  f1-score   support\n\n    No disease       0.86      0.90      0.88        82\nDisease signal       0.92      0.88      0.90       102\n\n      accuracy                           0.89       184\n     macro avg       0.89      0.89      0.89       184\n  weighted avg       0.89      0.89      0.89       184\n",
+    "best_params": {
+      "metric": "manhattan",
+      "n_neighbors": 11,
+      "weights": "uniform"
+    },
+    "cv_best_score": 0.8780122346900404,
+    "cv_summary": {
+      "Model": "k-NN",
+      "CV accuracy mean": 0.8624172956853975,
+      "CV accuracy std": 0.030158342232996873,
+      "CV precision mean": 0.8639250028308588,
+      "CV precision std": 0.037039287316489374,
+      "CV recall mean": 0.8941884974405298,
+      "CV recall std": 0.035015623794332165,
+      "CV f1 mean": 0.8780122346900404,
+      "CV f1 std": 0.025727971436915204
+    }
+  },
+  "ID3 Decision Tree": {
+    "Accuracy": 0.8206521739130435,
+    "Precision": 0.8709677419354839,
+    "Recall": 0.7941176470588235,
+    "F1": 0.8307692307692308,
+    "Specificity": 0.8536585365853658,
+    "confusion_matrix": [
+      [
+        70,
+        12
+      ],
+      [
+        21,
+        81
+      ]
+    ],
+    "classification_report": "                precision    recall  f1-score   support\n\n    No disease       0.77      0.85      0.81        82\nDisease signal       0.87      0.79      0.83       102\n\n      accuracy                           0.82       184\n     macro avg       0.82      0.82      0.82       184\n  weighted avg       0.83      0.82      0.82       184\n",
+    "best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "cv_best_score": 0.8460233063477107,
+    "cv_summary": {
+      "Model": "ID3 Decision Tree",
+      "CV accuracy mean": 0.8310409095144907,
+      "CV accuracy std": 0.03437105488961299,
+      "CV precision mean": 0.8633947333421996,
+      "CV precision std": 0.06360851876356603,
+      "CV recall mean": 0.8376091538693166,
+      "CV recall std": 0.06582809260603976,
+      "CV f1 mean": 0.8460233063477107,
+      "CV f1 std": 0.027055245390462557
+    }
+  },
+  "SVM": {
+    "Accuracy": 0.8641304347826086,
+    "Precision": 0.8737864077669902,
+    "Recall": 0.8823529411764706,
+    "F1": 0.8780487804878049,
+    "Specificity": 0.8414634146341463,
+    "confusion_matrix": [
+      [
+        69,
+        13
+      ],
+      [
+        12,
+        90
+      ]
+    ],
+    "classification_report": "                precision    recall  f1-score   support\n\n    No disease       0.85      0.84      0.85        82\nDisease signal       0.87      0.88      0.88       102\n\n      accuracy                           0.86       184\n     macro avg       0.86      0.86      0.86       184\n  weighted avg       0.86      0.86      0.86       184\n",
+    "best_params": {
+      "C": 0.1,
+      "gamma": "auto",
+      "kernel": "rbf"
+    },
+    "cv_best_score": 0.8707152727607754,
+    "cv_summary": {
+      "Model": "SVM",
+      "CV accuracy mean": 0.8501723977262138,
+      "CV accuracy std": 0.04563666256689072,
+      "CV precision mean": 0.8420597229681498,
+      "CV precision std": 0.056844835659925534,
+      "CV recall mean": 0.9040349292381812,
+      "CV recall std": 0.025870522581673557,
+      "CV f1 mean": 0.8707152727607754,
+      "CV f1 std": 0.03403220269001043
+    }
+  },
+  "Linear Regression": {
+    "Accuracy": 0.875,
+    "Precision": 0.8495575221238938,
+    "Recall": 0.9411764705882353,
+    "F1": 0.8930232558139535,
+    "Specificity": 0.7926829268292683,
+    "confusion_matrix": [
+      [
+        65,
+        17
+      ],
+      [
+        6,
+        96
+      ]
+    ],
+    "classification_report": "                precision    recall  f1-score   support\n\n    No disease       0.92      0.79      0.85        82\nDisease signal       0.85      0.94      0.89       102\n\n      accuracy                           0.88       184\n     macro avg       0.88      0.87      0.87       184\n  weighted avg       0.88      0.88      0.87       184\n",
+    "best_params": {
+      "threshold": 0.45
+    },
+    "cv_best_score": 0.873721588961416,
+    "cv_summary": {
+      "Model": "Linear Regression",
+      "CV accuracy mean": 0.8542540303792749,
+      "CV accuracy std": 0.04617577673948472,
+      "CV precision mean": 0.8478157857468203,
+      "CV precision std": 0.05716063692343098,
+      "CV recall mean": 0.9040048178259559,
+      "CV recall std": 0.031366438219070925,
+      "CV f1 mean": 0.873721588961416,
+      "CV f1 std": 0.03525789110887549
+    },
+    "regression_metrics": {
+      "R2": 0.5474094367463517,
+      "MAE": 0.24872601358168528,
+      "RMSE": 0.33438126489429465
+    }
+  }
+}

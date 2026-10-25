@@ -1,0 +1,6 @@
+Feature,Q1,Q3,Lower Bound,Upper Bound,Outlier Count,Outlier %
+age,47.0,60.0,27.5,79.5,0,0.0
+resting_bp_s,120.0,140.0,90.0,170.0,27,2.94
+cholesterol,207.25,275.0,105.62,376.62,23,2.51
+max_heart_rate,120.0,156.0,66.0,210.0,2,0.22
+oldpeak,0.0,1.5,-2.25,3.75,16,1.74
